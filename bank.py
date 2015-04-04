@@ -1,6 +1,5 @@
 #
 #  Bank Program
 #
-
-def deposit():
-    print 'I am now depositing.....'
+def withdraw():
+    print "I am withdrawing"
