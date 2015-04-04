@@ -6,3 +6,6 @@ def withdraw():
 
 def deposit():
     print "This old machine is now depositing your money$$........"
+
+def print_balance():
+    print "Printing Balance........"
