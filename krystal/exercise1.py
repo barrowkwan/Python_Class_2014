@@ -10,9 +10,7 @@ num_2 = int(num_2)
 
 def max(num_1, num_2):
     if num_1 > num_2:
-        largest_number = num_1
-        print num_1
+        return num_1
     else:
-        largest_number = num_2
-        print num_2
+        return num_2
 max(num_1, num_2)
