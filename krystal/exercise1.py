@@ -1,5 +1,6 @@
 # Name: Krystal Kwan
 # Date: 7/11/2015
+# Description: define a function 'max()' that takes two numbers as argum
 
 from sys import argv
 
@@ -12,5 +13,7 @@ def max():
     global num_2
     if num_1 > num_2:
         largest_number = num_1
+        print num_1
     else:
         largest_number = num_2
+        print num_2
