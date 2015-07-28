@@ -1,7 +1,5 @@
 #Ian Wong
-#7/11/15 : Question 1,max
-#from sys import argv
-#num1, num2 =argv
+#7/11/15 : Question 1,max 
 
 num1=(raw_input("Number 1:"))
 num2=(raw_input("Number 2:"))
