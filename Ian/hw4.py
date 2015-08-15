@@ -13,7 +13,7 @@ def max_num(x,y):
     else:
         return y
 ma=max(max(max(max(num1,num2),num3),num4),num5)
-print "Max: %d" % ma
+print "Maximum: %d" % ma
 
 def min_num(x,y):
     if x < y:
