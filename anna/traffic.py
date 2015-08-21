@@ -14,11 +14,11 @@ GPIO.setup(12, GPIO.IN, pull_up_down = GPIO.PUD_UP)
 
 def flash():
   GPIO.output(13, False)
-  for i in range(5):
+  for i in range(8):
     GPIO.output(5, True)
-    time.sleep(1)
+    time.sleep(0.5)
     GPIO.output(5, False)
-    time.sleep(1)
+    time.sleep(0.5)
   GPIO.output(24, True)
 
 while True:
