@@ -23,7 +23,7 @@ def max(num_1, num_2):
         return num_2
 
 def min(num_1, num_2):
-    if num_1 > num_2:
+    if num_1 < num_2:
         return num_1
     else:
         return num_2
