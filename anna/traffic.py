@@ -1,3 +1,5 @@
+# Name: Krystal, Anna, Ian
+# Date: 8/24/2015 
 #!/user/bin/env python
 
 import RPi.GPIO as GPIO
