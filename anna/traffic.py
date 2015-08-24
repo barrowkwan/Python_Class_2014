@@ -1,5 +1,6 @@
 # Name: Krystal, Anna, Ian
 # Date: 8/24/2015 
+# Description: Traffic and Pedestrian Lights with LCD
 #!/user/bin/env python
 
 import RPi.GPIO as GPIO
