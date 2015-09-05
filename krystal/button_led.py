@@ -8,7 +8,7 @@ GPIO.setup(4,GPIO.OUT)
 GPIO.setup(21, GPIO.IN, pull_up_down = GPIO.PUD_UP)
 
 while True:
-  if (GPIO.input(17) == 1):
+  if (GPIO.input(21) == 1):
     GPIO.output(4,False)
   else:
     GPIO.output(4,True)
