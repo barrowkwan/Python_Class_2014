@@ -2,11 +2,12 @@
 #
 # Name: Krystal Kwan
 # Date: 9/5/2015
-# Description: asks the name and the age of the person
+# Description: generates 2 random numbers and gives the sum of both of them
 
-name = raw_input("Name: ")
-age = int(raw_input("Age: "))
-years = age + 10
+from random import *
 
-print "Your name is %s and you are %i years old." % (name, age)
-print "Ten years later, you will be %i years old." % (years)
+a = randint(1,99)
+b = randint(1,99)
+c = a + b
+
+print "The sum of %i + %i = %i." % (a, b, c)
