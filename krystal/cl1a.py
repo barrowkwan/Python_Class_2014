@@ -6,10 +6,11 @@
 
 def letter_name(name):
     numbers = len(name)
-    print "You have %i letters in your name." % (numbers)
+    return int(numbers)
 
 print "What is your name?"
 name = raw_input('> ')
-
+numbers = 0
 
 letter_name(name)
+print "Your name has %s letters." % (letter_name(name))
