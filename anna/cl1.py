@@ -4,8 +4,10 @@
 # 9/5/15
 #
 
-name = raw_input('What is your name?')
-age = int(raw_input('What is your age?'))
+from random import *
 
-print '%s is %d years old.' % (name, age)
-print 'After ten years, you are %d.' % (age + 10)
+a = randint(1,99)
+b = randint (1,99)
+print a
+print b
+print 'Sum of %s and %s is %s' % (a, b, a + b)
