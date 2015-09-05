@@ -2,12 +2,14 @@
 #
 # Name: Krystal Kwan
 # Date: 9/5/2015
-# Description: generates 2 random numbers and gives the sum of both of them
+# Description: asks the name and tells you how many letters your name has
 
-from random import *
+def letter_name(name):
+    numbers = len(name)
+    print "You have %i letters in your name." % (numbers)
 
-a = randint(1,99)
-b = randint(1,99)
-c = a + b
+print "What is your name?"
+name = raw_input('> ')
 
-print "The sum of %i + %i = %i." % (a, b, c)
+
+letter_name(name)
