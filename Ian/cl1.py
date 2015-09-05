@@ -19,4 +19,7 @@ born=int(raw_input("How old are you?"))
 print "%s, you are %i years old." % (name,born)
 print "10 years later you are %i years old" % (born+10)
 
-
+from random import randint
+i=randint(1,99)
+j=randint(1,99)
+print "%i + %i = %i" % (i,j,i+j)
