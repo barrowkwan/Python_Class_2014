@@ -3,11 +3,11 @@
 # Anna Lee
 # 9/5/15
 #
+name = raw_input('What is your name?')
 
-from random import *
+def length(name):
+    print 'Your name has %s letters' % (len(name))
 
-a = randint(1,99)
-b = randint (1,99)
-print a
-print b
-print 'Sum of %s and %s is %s' % (a, b, a + b)
+length(name)
+
+#ask name define function to say how many letters in the name
