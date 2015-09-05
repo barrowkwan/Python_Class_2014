@@ -4,7 +4,8 @@
 # 9/5/15
 #
 
-a = '100'
-b = '200'
+name = raw_input('What is your name?')
+age = int(raw_input('What is your age?'))
 
-print 'Sum of a + b = %d' % (int(a) + int(b))
+print '%s is %d years old.' % (name, age)
+print 'After ten years, you are %d.' % (age + 10)
