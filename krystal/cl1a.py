@@ -6,5 +6,7 @@
 
 name = raw_input("Name: ")
 age = int(raw_input("Age: "))
+years = age + 10
 
 print "Your name is %s and you are %i years old." % (name, age)
+print "Ten years later, you will be %i years old." % (years)
