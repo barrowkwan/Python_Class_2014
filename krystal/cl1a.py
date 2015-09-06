@@ -7,11 +7,7 @@
 def full_name(first, last):
     return (first + " " + last)
 
-
 first = raw_input("What is your first name? ")
 last = raw_input("What is your last name? ")
-
-
-
 
 print "%s" % (full_name(first, last))
