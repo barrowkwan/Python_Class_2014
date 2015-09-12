@@ -3,11 +3,13 @@
 # Anna Lee
 # 9/5/15
 #
-name = raw_input('What is your name?')
 
-def length(name):
-    print 'Your name has %s letters' % (len(name))
+fn = raw_input('What is your first name?')
+ln = raw_input('What is your last name?')
 
-length(name)
+def name(fn,ln):
+   print 'Your name is full name is %s %s' % (fn, ln)
 
-#ask name define function to say how many letters in the name
+name(fn,ln)
+    
+#ask first and last name return string that combines first and last name together
