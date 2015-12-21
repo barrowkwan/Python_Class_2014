@@ -2,9 +2,11 @@
 #Name:Ian Wong
 #Date:12/20/15
 #Assignment:Python Counting Program
-
+import sys
+first = print (input("What is your first number"))
+second  = print (input("What is your second number"))
 def one():
-	for i in range(1,11):
+	for i in range(first,second):
 		print (i)
 
 def two():
