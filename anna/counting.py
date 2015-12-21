@@ -2,9 +2,13 @@
 #Name: Anna Lee
 #Date: December 20, 2015
 #Description: Counting
+import sys
 
-def one():
-  for i in range (1, 11):
+f = int(input("What is your first number?"))
+s = int(input("What is your second number?"))
+
+def one(f,s):
+  for i in range (f,s):
     print (i)
 
 def two():
@@ -15,7 +19,7 @@ def three():
   for i in range (20, 1, -2):
     print (i)
 
-one()
+one(f,s)
 two()
 three()
 
