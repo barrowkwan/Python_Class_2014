@@ -18,6 +18,6 @@ def function3():
 	for i in range(20,1,-2):
 		print (i)
 
-function1(1,11)
+function1(first,second)
 function2()
 function3()
