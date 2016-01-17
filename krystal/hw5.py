@@ -1,10 +1,10 @@
-Name: Krystal Kwan
-# Date: 1/3/2016
+#Name: Krystal Kwan
+# Date: 1/17/2016
 # Description: Change first letter of each word to uppercase
 #!/usr/bin/env python
 
-print ("String:")
-string = input("> ")
+print "String:"
+string = raw_input("> ")
 
-string1 = string.lower()
+string1 = string.upper()
 print (string1)
