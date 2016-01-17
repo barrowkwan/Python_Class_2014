@@ -1,5 +1,5 @@
-Name: Krystal Kwan
-# Date: 1/3/2016
+#Name: Krystal Kwan
+# Date: 1/17/2016
 # Description: Count how many vowels in each string
 #!/usr/bin/env python
 
