@@ -10,7 +10,7 @@ def name(fn,ln):
 
 fn = raw_input('What is your first name?')
 ln = raw_input('What is your last name?')
-
+    
 b = name(fn, ln)
 print b
 
