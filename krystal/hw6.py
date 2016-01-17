@@ -7,5 +7,11 @@ print "String: "
 string = raw_input("> ")
 vowels = "aeiou"
 vowel1 = vowels.lower()
-for v in vowels:
-    print 
+c = 0
+for i in string:
+    for j in vowels:
+        if i == j:
+            c = c + 1
+        else:
+            continue
+print "Amount of vowels: %i" % (c)
