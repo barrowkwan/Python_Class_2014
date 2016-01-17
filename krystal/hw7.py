@@ -5,9 +5,8 @@
 
 print "String: "
 string = raw_input("> ")
-dash = "-"
 for i in string:
-    if i == dash:
+    if i == "-":
         break
     else:
         print i
