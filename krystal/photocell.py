@@ -1,3 +1,6 @@
+# Name: Anna, Krystal
+# Date: 8/24/2015
+# Description: Nightlight Stimulator with 8 LEDs
 #!/usr/bin/env python
 
 # Example for RC timing reading for Raspberry Pi
@@ -27,7 +30,7 @@ def RCtime (RCpin):
   # This takes about 1 millisecond per loop cycle
   while (GPIO.input(RCpin) == GPIO.LOW):
     reading += 1
-    if reading <= 100:
+    if reading <= 20:
       GPIO.output(25, True) 
       GPIO.output(12, False)
       GPIO.output(16, False)
@@ -36,7 +39,7 @@ def RCtime (RCpin):
       GPIO.output(22, False)
       GPIO.output(17, False)
       GPIO.output(4, False)
-    elif reading <= 200:
+    elif reading <= 40:
       GPIO.output(25, True)
       GPIO.output(12, True)
       GPIO.output(16, False)
@@ -45,7 +48,7 @@ def RCtime (RCpin):
       GPIO.output(22, False)
       GPIO.output(17, False)
       GPIO.output(4, False)
-    elif reading <= 300:
+    elif reading <= 60:
       GPIO.output(25, True)
       GPIO.output(12, True)
       GPIO.output(16, True)
@@ -54,7 +57,7 @@ def RCtime (RCpin):
       GPIO.output(22, False)
       GPIO.output(17, False)
       GPIO.output(4, False)
-    elif reading <= 400:
+    elif reading <= 80:
       GPIO.output(25, True)
       GPIO.output(12, True)
       GPIO.output(16, True)
@@ -63,7 +66,7 @@ def RCtime (RCpin):
       GPIO.output(22, False)
       GPIO.output(17, False)
       GPIO.output(4, False)
-    elif reading <= 500:
+    elif reading <= 100:
       GPIO.output(25, True)
       GPIO.output(12, True)
       GPIO.output(16, True)
@@ -72,7 +75,7 @@ def RCtime (RCpin):
       GPIO.output(22, False)
       GPIO.output(17, False)
       GPIO.output(4, False)
-    elif reading <= 600:
+    elif reading <= 120:
       GPIO.output(25, True)
       GPIO.output(12, True)
       GPIO.output(16, True)
@@ -81,7 +84,7 @@ def RCtime (RCpin):
       GPIO.output(22, True)
       GPIO.output(17, False)
       GPIO.output(4, False) 
-    elif reading <= 700:
+    elif reading <= 140:
       GPIO.output(25, True)
       GPIO.output(12, True)
       GPIO.output(16, True)

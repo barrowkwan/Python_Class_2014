@@ -11,7 +11,7 @@ num_5 = int(raw_input("Fifth number:"))
 def max(num_1, num_2, num_3, num_4, num_5):
     if num_1 > num_2 and num_1 > num_3 and num_1 > num_4 and num_1 > num_5:
         print "Maximum : %d" % num_1
-        return num_1
+        return num_1        
     elif num_2 > num_1 and num_2 > num_3 and num_2 > num_4 and num_2 > num_5:
         print "Maximum : %d" % num_2
         return num_2
@@ -25,9 +25,13 @@ def max(num_1, num_2, num_3, num_4, num_5):
         print "Maximum : %d" % num_5
         return num_5
 
+:
+        print "Maximum : %d" % num_1
+        return num_1
+
 def min(num_1, num_2, num_3, num_4, num_5):
     if num_1 < num_2 and num_1 < num_3 and num_1 < num_4 and num_1 < num_5:
-        print "Minimum : %d" % num_1
+    print "Minimum : %d" % num_1
         return num_1
     elif num_2 < num_1 and num_2 < num_3 and num_2 < num_4 and num_2 < num_5:
         print "Minimum : %d" % num_2
