@@ -1,6 +1,8 @@
 # Krystal Kwan
 # 2/14/2016
 # Make questions for a first grader
+#!/usr/bin/env python
+
 from random import randint
 s = 0
 for i in range(1,11):
