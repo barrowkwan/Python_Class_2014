@@ -33,10 +33,8 @@ while continuation == "y":
         rectangle_area()
     elif shape == "triangle" or shape == "2":
         triangle_area() 
-    else:
-        print "Invalid choice."
-
-
+    except ValueError:
+        print "Oops! That was no valid number. Try again..."
     print "Do you want to continue?"
     continuation = raw_input("> ")
 
