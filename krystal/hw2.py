@@ -2,8 +2,8 @@
 # Date: Tuesday, July 21, 2015
 # Topic: Reversing Strings
 
-print "Input string"
-string = raw_input("> ")
+print ("Input string")
+string = input("> ")
 
 class Reverse:
     """Iterator for looping over a sequence backwards."""
@@ -21,5 +21,5 @@ class Reverse:
 rev = Reverse(string)
 iter(rev)
 
-print "Output string: %s" % (rev)
+print ("Output string: %s" % (rev))
 
