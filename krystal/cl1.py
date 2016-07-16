@@ -7,4 +7,4 @@
 s = "Hello World"
 n = 100
 
-print "%s : %i" % (s, n)
+print ("%s : %i" % (s, n))
